@@ -41,18 +41,14 @@ This workshop will help you setup a project on Azure DevOps, including Continuou
 ## Workshop repositories
 This workshop uses two repositories. The scripts and pipelines are very similar, but one is a Per Tenant Extension and using the Per Tenant Extension cop + number ranges and the other one is an AppSource app, using the AppSourceCop + appsource number ranges + prefixes and breaking change notifications.
 
-[https://dev.azure.com/businesscentralapps/HelloWorld](https://dev.azure.com/businesscentralapps/HelloWorld)
-
-[https://github.com/BusinessCentralApps/HelloWorld](https://github.com/BusinessCentralApps/HelloWorld)
+[https://github.com/plataan/BC-HelloWorld](https://github.com/plataan/BC-HelloWorld)
 
 This is the Per Tenant Extension version of the app.
 - Number range defined in app.json is 50100 to 50149.
 - PerTenantExtensionCop and UICop are enabled during build (in scripts\settings.json)
 - PreviousApps points to .zip file containing previous versions of apps
 
-[https://dev.azure.com/businesscentralapps/HelloWorld.AppSource](https://dev.azure.com/businesscentralapps/HelloWorld.AppSource)
-
-[https://github.com/BsinessCentralApps/HelloWorld.AppSource](https://github.com/BsinessCentralApps/HelloWorld.AppSource)
+[https://github.com/plataan/BC-HelloWorld.AppSource](https://github.com/plataan/BC-HelloWorld.AppSource)
 
 This is the AppSource version of the app.
 - Number range defined in app.json is 70074169 to 70074218 (my allocated number range)
@@ -150,9 +146,8 @@ Navigate to [https://devops.azure.com](https://devops.azure.com) and login to yo
 
 ![](Docs/image-4.png)
 
-In the project navigate to the Repos -> Files area, click Import and enter [https://dev.azure.com/businesscentralapps/HelloWorld/_git/HelloWorld](https://dev.azure.com/businesscentralapps/HelloWorld/_git/HelloWorld) (or HelloWorld.AppSource
-for the AppSource version) in the Clone URL field. The sample repository is also available on github
-here: [https://github.com/BusinessCentralApps/HelloWorld](https://github.com/BusinessCentralApps/HelloWorld) (add .AppSource for AppSource).
+In the project navigate to the Repos -> Files area, click Import and enter [https://github.com/plataan/BC-HelloWorld](https://github.com/plataan/BC-HelloWorld) (or BC-HelloWorld.AppSource
+for the AppSource version) in the Clone URL field.
 
 ![](Docs/image-5.png)
 
